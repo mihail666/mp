@@ -1,0 +1,17 @@
+::-webkit-scrollbar {
+  width: 0.25rem;
+  background-color: #f2f2f2;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1150fe;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #000;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+

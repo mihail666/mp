@@ -1,0 +1,27 @@
+$family: 'Inter var', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+@use 'vuetify/settings' with (
+  $body-font-family: $family,
+  $button-border-radius: 8px,
+  $button-font-weight: 600,
+  $tooltip-border-radius: 8px,
+  $tooltip-font-size: 13px,
+  $tooltip-padding: 3px 12px,
+  $field-border-radius: 8px,
+  $font-size-root: 20px,
+  $heading-font-family: Space Grotesk,
+  $color-pack: false,
+  $utilities: false,
+  $typography: (
+    "h1": (
+      "size": 2rem,
+      "weight": 500,
+      "line-height": 2.2rem,
+      "letter-spacing": 0,
+      "font-family": Comic Sans,
+      "text-transform": none,
+    ),
+  )
+);

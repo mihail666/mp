@@ -11,5 +11,10 @@ export const defaults: DefaultsInstance = {
   },
   VCard: {
     elevation: 3,
-  }
+  },
+  VNavigationDrawer: {
+    permanent: true,
+    location: "right",
+    floating: true
+  } 
 }

@@ -1,17 +1,67 @@
 ::-webkit-scrollbar {
   width: 0.25rem;
-  background-color: #f2f2f2;
+  background-color: #0C111B;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #1150fe;
+  background-color: #a1a1a1;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #000;
+  background-color: #ffffff;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
+.nav-bg {
+  background: none !important;
+}
+
+.stars {
+  width: 50%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+
+.stars-left {
+  top: 30%;
+  left: 10%;
+  transform: rotate(25deg);
+}
+.stars-right {
+  top: 30%;
+  right: 15%;
+  transform: rotate(5deg);
+}
+
+
+img {
+  max-width: 100% !important;
+  height: auto !important;
+  margin: auto !important;
+}
+
+.shape-img {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+
+.bg {
+  position: absolute !important;
+  left: 0 !important;
+  top: 0 !important;
+}
+.bg-bright {
+  filter: brightness(10);
+}
+
+.mix-blend-mode {
+  mix-blend-mode:exclusion;
+}
+
+// https://www.figma.com/files/recents-and-sharing/recently-viewed?fuid=1288595769362449804

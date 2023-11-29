@@ -1,13 +1,11 @@
 <template>
   <v-app>
     <HeaderBar />
-
     <v-main>
-      <v-container class="position-relative">
-        <slot />
-      </v-container>
-    </v-main>
 
+        <slot />
+
+    </v-main>
   </v-app>
 </template>
 

@@ -4,11 +4,11 @@ import { type ThemeDefinition } from 'vuetify'
 export const MAIN_THEME = 'mainTheme'
 // Light mode theme
 export const mainTheme: ThemeDefinition = {
-  dark: false,
+  dark: true,
   colors: {
-    background: '#F1F1F1',
-    surface: '#FFFFFF',
-    primary: '#4f46e5',
+    background: '#0C111B',
+    surface: '#111827',
+    primary: '#6366f1',
     secondary: '#9333ea',
     error: '#ef4444',
     info: '#3b82f6',

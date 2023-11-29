@@ -1,12 +1,13 @@
 import vuetify from 'vite-plugin-vuetify'
 // PWA Config
-const title = 'qtim'
-const shortTitle = 'Marketplace'
+const title = 'nuxt'
+const shortTitle = 'mp'
 
 export default defineNuxtConfig({
   pages: true,
 
   typescript: { shim: false },
+  
 
   build: { transpile: ['pinia-plugin-persistedstate', '@pinia/nuxt'] },
 
@@ -14,8 +15,8 @@ export default defineNuxtConfig({
     client: false,
     server: false,
   },
-
   css: ['@/assets/main.scss'],
+  
   modules: [
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
@@ -53,7 +54,6 @@ export default defineNuxtConfig({
       noExternal: ['vuetify'],
     },
   },
-//@ts-ignore
   pwa: {
     meta: {
       name: shortTitle,
